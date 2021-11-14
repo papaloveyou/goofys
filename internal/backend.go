@@ -25,6 +25,11 @@ import (
 	"github.com/jacobsa/fuse"
 )
 
+const (
+	PLOT = ".plot"
+	GZ   = ".gz"
+)
+
 type Capabilities struct {
 	// set this to true to disable parallel upload
 	NoParallelMultipart bool
